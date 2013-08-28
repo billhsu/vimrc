@@ -23,9 +23,7 @@ vmap <C-C> "+y
 "vmap <C-A> <Esc>gggH<C-O>G<Esc>i
 "
 ""<Ctrl-V> -- paste
-imap <C-P> "+gP
-vmap <C-P> "+gP
-
+map <C-V> "+gP
 ' > ~/.vimrc
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
