@@ -10,6 +10,22 @@ source ~/.vim_runtime/vimrcs/extended.vim
 try
 source ~/.vim_runtime/my_configs.vim
 catch
-endtry' > ~/.vimrc
+endtry
+
+"<Ctrl-X> -- cut (goto visual mode and cut)
+vmap <C-X> "+x
+"
+""<Ctrl-C> -- copy (goto visual mode and copy)
+vmap <C-C> "+y
+
+"<Ctrl-A> -- copy all
+"imap <C-A> <C-O>gg<C-O>gH<C-O>G<Esc>
+"vmap <C-A> <Esc>gggH<C-O>G<Esc>i
+"
+""<Ctrl-V> -- paste
+imap <C-P> "+gP
+vmap <C-P> "+gP
+
+' > ~/.vimrc
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
