@@ -12,6 +12,10 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry
 set clipboard=unnamedplus
+set number
+if has('mouse')
+    set mouse=a
+endif
 ' > ~/.vimrc
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
