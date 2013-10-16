@@ -13,7 +13,7 @@ catch
 endtry
 set clipboard=unnamedplus
 set number
-if has('mouse')
+if has("mouse")
     set mouse=a
 endif
 ' > ~/.vimrc
