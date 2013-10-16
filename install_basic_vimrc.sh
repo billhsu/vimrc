@@ -3,7 +3,7 @@ cat ~/.vim_runtime/vimrcs/basic.vim > ~/.vimrc
 echo '
 set clipboard=unnamedplus
 set number
-if has('mouse')
+if has("mouse")
     set mouse=a
 endif
 '>>~/.vimrc
